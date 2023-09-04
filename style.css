@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./taylor-swift-net-worth.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    position: fixed;
+    margin-left: 300px;
+    margin-top: 250px;
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+    padding-left: 45px;
+    border: 2px solid maroon;
+}
+
+
+
+.container:hover{
+    rotate: 50deg;
+}
+
+.container p::before {
+    content: "Buna bax - ";
+   
+}
+
+.text {
+    color: rgb(49, 11, 11)
+}
